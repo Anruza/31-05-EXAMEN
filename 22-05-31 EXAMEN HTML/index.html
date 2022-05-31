@@ -33,22 +33,23 @@
             <legend style="text-align:center;">Si deseas mas información, envianos tus datos</legend>
             <br> 
             <label for="nombre">Nombre *</label>
-            <input type="text" id="nombre" placeholder="Tu nombre aquí" required style="margin-left:30px ;">
+            <input type="text" id="nombre"  name="nombre" placeholder="Tu nombre aquí" required style="margin-left:30px ;">
             <br><br>
             <label for="edad" > Edad *</label>
-            <input type="number" id="edad" placeholder="Mayor de 25" min="25" max="99" step="1"  required style="margin-left:48px; width: 100px ;">
+            <input type="number" id="edad" name="edad" placeholder="Mayor de 25" min="25" max="99" step="1"  required style="margin-left:48px; width: 100px ;">
             <br><br>
             <label for="email" >Email *</label>
-            <input type="email" id="email" placeholder="Tu email" required  style="margin-left:40px ;">
+            <input type="email" id="email" name="email" placeholder="Tu email" required  style="margin-left:40px ;">
             <br><br>
             <label for="nobre">Comentario *</label> <br>
             <textarea
-                required
+                
                 name="comentario"
                 id="comentario"
                 cols="50"
                 rows="5"
-                maxlength="300">
+                maxlength="300"
+                required >
             </textarea>
             <br><br>
             <input type="checkbox" name="checkbox" required value="si" id="ch1" /><span style="color:red ;"> No he leido nada pero acepto igual</span>
